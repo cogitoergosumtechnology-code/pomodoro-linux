@@ -1,0 +1,13 @@
+// Para quem usa Waybar: mesclar em ~/.config/waybar/config.jsonc e adicionar
+// "custom/pomodoro" em modules-right. (No Omarchy com o shell Quickshell, use
+// o plugin de barra em data/omarchy-plugin.)
+"custom/pomodoro": {
+  "exec": "cat \"$XDG_RUNTIME_DIR/pomodoro.json\" 2>/dev/null || echo '{\"text\":\"\"}'",
+  "return-type": "json",
+  "interval": 1,
+  "format": "🍅 {}",
+  "on-click": "pomodoro toggle",
+  "on-click-right": "pomodoro menu",
+  "on-click-middle": "pomodoro start-pause",
+  "tooltip": true
+}

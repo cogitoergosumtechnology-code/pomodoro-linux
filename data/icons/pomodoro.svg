@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="256" height="256" viewBox="0 0 256 256">
+  <defs>
+    <radialGradient id="body" gradientUnits="userSpaceOnUse" cx="100" cy="110" r="150">
+      <stop offset="0" stop-color="#FF5A46"/>
+      <stop offset="1" stop-color="#BE1E19"/>
+    </radialGradient>
+  </defs>
+  <ellipse cx="128" cy="146" rx="110" ry="100" fill="url(#body)" stroke="#8C1414" stroke-width="6"/>
+  <g fill="#46A03C" stroke="#286E28" stroke-width="4">
+    <ellipse cx="30" cy="0" rx="30" ry="14" transform="translate(128 62) rotate(-54)"/>
+    <ellipse cx="30" cy="0" rx="30" ry="14" transform="translate(128 62) rotate(18)"/>
+    <ellipse cx="30" cy="0" rx="30" ry="14" transform="translate(128 62) rotate(90)"/>
+    <ellipse cx="30" cy="0" rx="30" ry="14" transform="translate(128 62) rotate(162)"/>
+    <ellipse cx="30" cy="0" rx="30" ry="14" transform="translate(128 62) rotate(234)"/>
+  </g>
+  <line x1="128" y1="62" x2="136" y2="18" stroke="#32782D" stroke-width="12" stroke-linecap="round"/>
+  <circle cx="128" cy="152" r="60" fill="#FFFFFF" fill-opacity="0.92"/>
+  <path d="M128 152 L128 104 A48 48 0 0 1 169.57 176 Z" fill="#C8231E"/>
+  <circle cx="128" cy="152" r="60" fill="none" stroke="#781414" stroke-width="5"/>
+</svg>

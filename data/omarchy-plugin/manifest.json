@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "id": "aurelio.pomodoro",
+  "name": "Pomodoro",
+  "version": "1.0.0",
+  "author": "aurelio",
+  "description": "Tempo do Pomodoro na barra (bandeja do widget Pomodoro)",
+  "kinds": [
+    "bar-widget"
+  ],
+  "entryPoints": {
+    "barWidget": "BarWidget.qml"
+  },
+  "barWidget": {
+    "displayName": "Pomodoro",
+    "description": "Tempo restante do Pomodoro",
+    "category": "Productivity",
+    "allowMultiple": false
+  }
+}
